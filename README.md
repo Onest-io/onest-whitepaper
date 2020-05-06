@@ -7,8 +7,8 @@
 - Reward workers and loyal utility holders with VOTE
 - Allow a natural market selection of VOTE users
 
-## Coin Flow Chart
-<img>https://raw.githubusercontent.com/Onest-io/onest-whitepaper/master/coin-flow.png</img>
+## Utility Flow Chart
+![utility-flow](https://raw.githubusercontent.com/Onest-io/onest-whitepaper/master/coin-flow.png)
 
 ## Effects of VOTE
 - VOTE is a limited utility, which can be minted, collected, shared, burnt, traded and used as collateal on the DEX

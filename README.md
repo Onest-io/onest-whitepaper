@@ -7,8 +7,12 @@
 - Reward workers and loyal utility holders with VOTE
 - Allow a natural market selection of VOTE users
 
-## Utility Emission
+## Utility Distribution
+### ONS
+Every BTS holder gets rewarded with the same amount of ONS on the new chain. 
 
+### VOTE
+Blockchain creates every day 10 Millionen VOTE, which rewards the worker and ONS staker. 
 
 ### Utility Flow Chart
 ![utility-flow](https://github.com/Onest-io/onest-whitepaper/blob/master/coin-flow.png)

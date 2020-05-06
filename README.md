@@ -8,7 +8,7 @@
 - Allow a natural market selection of VOTE users
 
 ## Coin Flow Chart
-![coin-flow](/master/coin-flow.png)
+![coin-flow](/blob/master/coin-flow.png)
 
 ## Effects of VOTE
 - VOTE is a limited utility, which can be minted, collected, shared, burnt, traded and used as collateal on the DEX

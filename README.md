@@ -68,5 +68,3 @@ The voter can define the emission type over time (constant or linear decrease) a
 - VOTE defines the minimal devaluation of ONS
 - VOTE benefits from the ONS value through BP
 - VOTE increases the demand of ONS for voting
-
-

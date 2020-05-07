@@ -14,7 +14,44 @@
 Every BTS holder gets rewarded with the same amount of ONS on the new chain. ONS will no longer be used for the function "voting".
 
 #### ONS-power
-ONS-power is a new core function to lock ONS and rewarded with new VOTE. Locked ONS can't be used as collateral or transferred to another account.
+ONS-power is a new core function to lock ONS, which gets rewarded with new VOTE. Locked ONS can't be used as collateral or transferred to another account.
+
+```
+tau=150; // days
+t=0; // days
+t_active = 0; // days
+
+ONS_power = amount_ONS * (1 - e^(-t/tau))
+
+if (new day)
+{
+t = t + 1
+t_active = t_active + 1
+}
+
+if (t > 450)
+{
+t = 450
+}
+
+if (t_active > 450)
+{
+t = 0
+}
+
+if (amount_ONS increased)
+{
+t = t * (amount_ONS_old/amount_ONS_new)
+t_active = 0
+}
+
+if (amount_ONS decreased)
+{
+t = 0
+30 day time lock until removed ONS can be vested
+t_active = 0
+}
+```
 
 ### VOTE
 Blockchain creates every day 10 Millionen VOTE, which rewards the worker system and ONS-power.

@@ -15,7 +15,7 @@ Every BTS holder gets rewarded with the same amount of ONS on the new chain.
 Blockchain creates every day 10 Millionen VOTE, which rewards the worker and ONS staker. 
 
 ### Utility Flow Chart
-![utility-flow](https://github.com/Onest-io/onest-whitepaper/blob/master/coin-flow.png)
+![utility-flow](blob/master/utility-flow.png)
 
 ### Effects of VOTE
 - VOTE is a limited utility, which can be minted, collected, shared, burnt, traded and used as collateal on the DEX

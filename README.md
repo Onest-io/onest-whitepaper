@@ -57,8 +57,8 @@ t_active = 0
 Blockchain creates every day 10 Millionen VOTE, which rewards the worker system and ONS-power. 
 
 #### Distribution
-6.18 Million VOTE are distributed on active worker proposals depending on the total worker VOTE-power.
-3.82 Million VOTE are distributed to staked ONS, depending on ONS-power.
+- 6.18 Million VOTE are distributed on active worker proposals depending on the total worker VOTE-power.
+- 3.82 Million VOTE are distributed to staked ONS, depending on ONS-power.
 
 #### VOTE-power
 The voter can define the emission type over time (constant or linear decrease) and the emission duration (max. 150d), when voting. The longer the time period, the lower the VOTE-power. 

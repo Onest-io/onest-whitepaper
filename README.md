@@ -68,7 +68,7 @@ The voter can define the emission type over time (constant or linear decrease) a
 `const. VOTE-power = (total burnt VOTE on voting) / (total days for voting)`
 
 #### max. VOTE-power
-The max. VOTE-power is limited by the available ONS-power of the voter account. For 1 VOTE-power 9.5 ONS-power is needed. 
+The max. VOTE-power is limited by the available ONS-power of the voter account. For 1 VOTE-power 9.5 ONS-power are needed. 
 
 ### VOTE use cases
 - Vote for or against a worker

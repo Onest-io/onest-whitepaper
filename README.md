@@ -58,7 +58,6 @@ Removing ONS from locked ONS, needs 30 days vesting time, until ONS is liquid ag
 ## VOTE
 Blockchain creates every day 10 Millionen VOTE, which rewards the worker system and ONS-power. 
 
-### Distribution
 - 6.18 Million VOTE are distributed on active worker proposals, depending on the total worker VOTE-power.
 - 3.82 Million VOTE are distributed to staked ONS, depending on ONS-power.
 

@@ -41,7 +41,7 @@ t = 0
 
 if (locked_ONS increased)
 {
-t = t * (amount_ONS_old/amount_ONS_new)
+t = t * (locked_ONS_old/locked_ONS_new)
 t_active = 0
 }
 
@@ -53,7 +53,7 @@ t_active = 0
 ```
 
 ### ONS vesting
-After removing ONS from locked ONS, 30 days are needed before ONS gets liquid. 
+Removing ONS from locked ONS, needs 30 days vesting time, until ONS is liquid again. 
 
 ## VOTE
 Blockchain creates every day 10 Millionen VOTE, which rewards the worker system and ONS-power. 

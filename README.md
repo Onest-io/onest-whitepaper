@@ -21,7 +21,7 @@ tau=150; // days
 t=0; // days
 t_active = 0; // days
 
-ONS_power = amount_ONS * (1 - e^(-t/tau))
+ONS_power = locked_ONS * (1 - e^(-t/tau))
 
 if (new day)
 {
@@ -39,13 +39,13 @@ if (t_active > 300)
 t = 0
 }
 
-if (amount_ONS increased)
+if (locked_ONS increased)
 {
 t = t * (amount_ONS_old/amount_ONS_new)
 t_active = 0
 }
 
-if (amount_ONS decreased)
+if (locked_ONS decreased)
 {
 t = 0
 30 day time lock until removed ONS can be vested

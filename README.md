@@ -70,15 +70,15 @@ The voter can define the emission type over time (constant or linear decrease) a
 
 The max. VOTE-power is limited by the available ONS-power of the voter account. For 1 VOTE-power 9.5 ONS-power are needed. 
 
+### VOTE-proxy
+The ONS-power account can select a proxy for the next 300 days, which recives every day, the daily VOTE reward.  
+
 ### VOTE use cases
 - Vote for or against a worker
 - Vote for or against a OIPS
 - Vote for or against a BP
 - Vote for or against a committee member
 - Pay for blockchain fees 
-
-### VOTE-proxy
-The ONS-power account can select a proxy for the next 300 days, which recives every day, the daily VOTE reward. 
 
 ### Effects of VOTE
 - VOTE is a limited utility, which can be minted, collected, shared, burnt, traded and used as collateal on the DEX

@@ -34,7 +34,7 @@ if (t > 450)
 t = 450
 }
 
-if (t_active > 450)
+if (t_active > 300)
 {
 t = 0
 }

@@ -61,9 +61,9 @@ Blockchain creates every day 10 Millionen VOTE, which rewards the worker system 
 - 3.82 Million VOTE are distributed to staked ONS, depending on ONS-power.
 
 ### VOTE-power
-The voter can define the emission type over time (constant or linear decrease) and the emission duration (max. 150d), when voting. The longer the time period, the lower the VOTE-power. 
+The voter can define the emission type over time (constant or linear decrease) and the emission duration (max. 150d). The longer the time period, the lower the VOTE-power. 
 
-1 VOTE-power is generated, when 1 VOTE is burnt per day.
+`1 VOTE-power` is generated, when 1 VOTE is burnt per day.
 
 `const. VOTE-power = (total burnt VOTE on voting) / (total days for voting)`
 

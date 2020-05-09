@@ -76,7 +76,7 @@ The ONS-power account can select a proxy for the next 300 days, which recives ev
 ### VOTE use cases
 VOTE can only be used once, by burning itself. 
 
-#### Vote for or against a OIPS
+#### Vote for or against a OIP
 A OIP has 30 active vote days, after the total net VOTE becomes consensus. 
 
 #### Vote for or against a worker
@@ -90,7 +90,17 @@ When an active worker doesn't accomplish the requirements for vesting, the colle
 
 When the raindropped VOTE from a worker are higher, than the total burned VOTE for the refund, the extra VOTE are constant raindropped for next 14 days on the remaining active workers. 
 
+#### Vote for or against a Block Producer
+Active block producers are selected for each round by the amount of total net VOTE-power multiplied with a random number between 1 and 2. 
 
+##### Missed n-blocks in a row halving
+When a BP misses the block production (n=0, n+1), his net VOTE power gets halved for the next 3^(n-1) BP circles.
+
+#### Vote for or against a committee member
+Active committee members are selected by the net amount of VOTE-power.
+
+#### Pay for block chain fees
+Block chain fees can also be paid by burning the equivalent amount of VOTE, instead of the LTM-ONS-fees. ONS-power is here not needed. Referrals and registrars can earn VOTE via vesting balances. The equivalent amount is calculated by the ONS/VOTE market based on the MA(14d). This feature allows free blockchain use by staking ONS and earning VOTE. 
 
 ### Effects of VOTE
 - VOTE is a limited utility, which can be minted, collected, shared, burnt, traded and used as collateal on the DEX

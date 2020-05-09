@@ -53,7 +53,7 @@ t_active = 0
 ```
 
 ### ONS vesting
-Removing ONS from locked ONS, needs 30 days vesting time, until ONS becomes liquid again. 
+Removing ONS from locked ONS needs 30 days vesting time, until ONS becomes liquid again. 
 
 ## VOTE
 Blockchain creates every day 10 Millionen VOTE, which rewards the worker system and ONS-power. 

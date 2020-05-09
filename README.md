@@ -85,12 +85,12 @@ A OIP has 30 active vote days, after the total net VOTE becomes consensus.
 Each active worker earns new VOTE, depending on the net VOTE-power percentage, compared to the total net worker VOTE-power.
 
 ##### Worker payout
-Vesting is enabled after 14 days, when 20% of the total needed worker VOTE got raindropped during the first 20% of the worker time. Worker gets deactivated, when requirements for vesting is not fulfilled or is fully funded or is out of timetable (max. 365 days).
+Vesting is enabled after 14 days, when 20% of the total needed worker VOTE got released, during the first 20% of the worker time. Worker gets deactivated, when requirements for vesting is not fulfilled or is fully funded or is out of timetable (max. 365 days).
 
 ##### Worker refund
 When an active worker doesn't accomplish the requirements for vesting, the collected VOTE are used, to give both VOTE parties a proportional refund.
 
-When the raindropped VOTE from a worker are higher, than the total burned VOTE for the refund, the extra VOTE are constant raindropped for next 14 days on the remaining active workers. 
+When the rewarded VOTE from a worker are higher, than the total burned VOTE for the refund, the extra VOTE are constantly shared for next 14 days on the remaining active workers. 
 
 #### Vote for or against a Block Producer
 Active block producers are selected for each round by the amount of total net VOTE-power multiplied with a random number between 1 and 2. 

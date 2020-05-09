@@ -37,7 +37,7 @@ if (t > 450)
 t = 450
 }
 
-if (t_active > 300)
+if (t_active > 100)
 {
 t = 0
 }
@@ -58,7 +58,7 @@ t_active = 0
 ## VOTE
 Blockchain creates every day 10 Millionen VOTE, which rewards the worker system and ONS-power. 
 
-- 6.18 Million VOTE are distributed on active worker proposals, depending on the total worker VOTE-power.
+- 6.18 Million VOTE are distributed on active worker proposals, depending on the net worker VOTE-power.
 - 3.82 Million VOTE are distributed to staked ONS, depending on ONS-power.
 
 ### VOTE-power
@@ -86,7 +86,7 @@ A OIP has 30 active vote days, after the net VOTE becomes consensus.
 Each active worker earns new VOTE, depending on the net VOTE-power percentage, compared to the net worker VOTE-power.
 
 ##### Worker payout
-Vesting is enabled after 14 days, when 20% of the total needed worker VOTE got released, during the first 20% of the worker time. Worker gets deactivated, when requirements for vesting is not fulfilled or is fully funded or is out of timetable (max. 365 days).
+Vesting is enabled after 14 days, when 20% of the total needed worker VOTE got released, during the first 20% of the worker time. Worker gets deactivated, when requirements for vesting is not fulfilled or is fully funded or is out of timetable (max. 360 days).
 
 ##### Worker refund
 When an active worker doesn't accomplish the requirements for vesting, the collected VOTE are used, to give both VOTE parties a proportional refund.

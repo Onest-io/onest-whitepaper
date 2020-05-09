@@ -12,7 +12,7 @@
 ![utility-flow](https://raw.githubusercontent.com/Onest-io/onest-whitepaper/master/utility-flow.png)
 
 ## ONS
-Every BTS holder gets rewarded with the same amount of ONS on the new chain. ONS will no longer be used for the function "voting". ONS utility is used for blockchain transaction to reward only Block Producer.
+Every BTS holder gets rewarded with the same amount of ONS on the new chain. ONS will no longer be used for the function "voting". ONS utility is used for blockchain transaction to reward only Block Producer **(BP)**.
 
 ### ONS-power
 ONS-power is a new core function to lock ONS. Locked ONS can't be used as collateral or transferred to another account.
@@ -93,7 +93,7 @@ When an active worker doesn't accomplish the requirements for vesting, the colle
 
 When the rewarded VOTE from a worker are higher, than the total burned VOTE for the refund, the extra VOTE are constantly shared for next 14 days on the remaining active workers. 
 
-#### Vote for or against a Block Producer
+#### Vote for or against a BP
 Active block producers are selected for each round by the amount of total net VOTE-power multiplied with a random number between 1 and 2. 
 
 ##### Missed n-blocks in a row halving

@@ -74,11 +74,23 @@ The max. VOTE-power is limited by the available ONS-power of the voter account. 
 The ONS-power account can select a proxy for the next 300 days, which recives every day, the daily VOTE reward.  
 
 ### VOTE use cases
-- Vote for or against a worker
-- Vote for or against a OIPS
-- Vote for or against a BP
-- Vote for or against a committee member
-- Pay for blockchain fees 
+VOTE can only be used once, by burning itself. 
+
+#### Vote for or against a OIPS
+A OIP has 30 active vote days, after the total net VOTE becomes consensus. 
+
+#### Vote for or against a worker
+Each active worker earns new VOTE, depending on the net VOTE-power percentage, compared to the total net worker VOTE-power.
+
+##### Worker payout
+Vesting is enabled after 14 days, when 20% of the total needed worker VOTE got raindropped during the first 20% of the worker time. Worker gets deactivated, when requirements for vesting is not fulfilled or is fully funded or is out of timetable (max. 365 days).
+
+##### Worker refund
+When an active worker doesn't accomplish the requirements for vesting, the collected VOTE are used, to give both VOTE parties a proportional refund.
+
+When the raindropped VOTE from a worker are higher, than the total burned VOTE for the refund, the extra VOTE are constant raindropped for next 14 days on the remaining active workers. 
+
+
 
 ### Effects of VOTE
 - VOTE is a limited utility, which can be minted, collected, shared, burnt, traded and used as collateal on the DEX

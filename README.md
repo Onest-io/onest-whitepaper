@@ -80,10 +80,10 @@ Whitelisted accounts, are able to perform any VOTE burn during the first 500 blo
 VOTE can only be used once, by burning itself. 
 
 #### Vote for or against a OIP
-A OIP has 30 active vote days, after the total net VOTE becomes consensus. 
+A OIP has 30 active vote days, after the net VOTE becomes consensus. 
 
 #### Vote for or against a Worker
-Each active worker earns new VOTE, depending on the net VOTE-power percentage, compared to the total net worker VOTE-power.
+Each active worker earns new VOTE, depending on the net VOTE-power percentage, compared to the net worker VOTE-power.
 
 ##### Worker payout
 Vesting is enabled after 14 days, when 20% of the total needed worker VOTE got released, during the first 20% of the worker time. Worker gets deactivated, when requirements for vesting is not fulfilled or is fully funded or is out of timetable (max. 365 days).
@@ -94,7 +94,7 @@ When an active worker doesn't accomplish the requirements for vesting, the colle
 When the rewarded VOTE from a worker are higher, than the total burned VOTE for the refund, the extra VOTE are constantly shared for next 14 days on the remaining active workers. 
 
 #### Vote for or against a BP
-Active block producers are selected for each round by the amount of total net VOTE-power multiplied with a random number between 1 and 2. 
+Active block producers are selected for each round by the amount of net VOTE-power multiplied with a random number between 1 and 2. 
 
 ##### Missed n-blocks in a row halving
 When a BP misses the block production (n=0, n+1), his net VOTE power gets halved for the next 3^(n-1) BP circles.

@@ -4,6 +4,7 @@
 - Turning the blockchain worker system into a public funding system
 - Segregating of `transaction utility` and `voting utility`
 - Balance the reward and demand between transaction and vote utilitiy 
+- Create a liquid governance and worker system
 - Reward workers and loyal utility holders with VOTE
 - Allow a natural market selection of VOTE users
 

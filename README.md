@@ -3,7 +3,7 @@
 ## Targets
 - Turning the blockchain worker system into a public funding system
 - Segregating of `transaction utility` and `voting utility`
-- Balance the reward and demand between transaction and vote utilitiy 
+- Balance the reward and demand between transaction and vote utility 
 - Create a liquid governance and worker system
 - Reward workers and loyal utility holders with VOTE
 - Allow a natural market selection of VOTE users
@@ -71,7 +71,7 @@ The voter can define the emission type over time (constant or linear decrease) a
 The max. VOTE-power is limited by the available ONS-power of the voter account. For 1 VOTE-power 9.5 ONS-power are needed. 
 
 #### VOTE-proxy
-The ONS-power account can select a proxy for the next 300 days, which recives every day, the daily VOTE reward.  
+The ONS-power account can select a proxy for the next 300 days, which receives every day, the daily VOTE reward.  
 
 #### VOTE-whitelist
 Whitelisted accounts, are able to perform any VOTE burn during the first 500 blockchain days.
@@ -106,7 +106,7 @@ Active committee members are selected by the net amount of VOTE-power.
 Block chain fees can also be paid by burning the equivalent amount of VOTE, instead of the LTM-ONS-fees. ONS-power is here not needed. Referrals and registrars can earn VOTE via vesting balances. The equivalent amount is calculated by the ONS/VOTE market based on the MA(14d). This feature allows free blockchain use by staking ONS and earning VOTE. 
 
 ### Effects of VOTE
-- VOTE is a limited utility, which can be minted, collected, shared, burnt, traded and used as collateal on the DEX
+- VOTE is a limited utility, which can be minted, collected, shared, burnt, traded and used as collateral on the DEX
 - VOTE enables everyone to profit from the governance and worker system, depending on his resources
 - VOTE enables a natural market selection and creates responsibility to use resources efficient 
 - VOTE punishes unvoter, wrong voter or too low voter

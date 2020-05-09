@@ -81,7 +81,7 @@ VOTE can only be used once, by burning itself.
 #### Vote for or against a OIP
 A OIP has 30 active vote days, after the total net VOTE becomes consensus. 
 
-#### Vote for or against a worker
+#### Vote for or against a Worker
 Each active worker earns new VOTE, depending on the net VOTE-power percentage, compared to the total net worker VOTE-power.
 
 ##### Worker payout

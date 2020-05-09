@@ -70,8 +70,11 @@ The voter can define the emission type over time (constant or linear decrease) a
 
 The max. VOTE-power is limited by the available ONS-power of the voter account. For 1 VOTE-power 9.5 ONS-power are needed. 
 
-### VOTE-proxy
+#### VOTE-proxy
 The ONS-power account can select a proxy for the next 300 days, which recives every day, the daily VOTE reward.  
+
+#### Whitelist
+Whitelisted accounts, are able to perform any VOTE burn during the first 500 blockchain days.
 
 ### VOTE use cases
 VOTE can only be used once, by burning itself. 

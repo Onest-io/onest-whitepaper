@@ -16,6 +16,8 @@ Every BTS holder gets rewarded with the same amount of ONS on the new chain. ONS
 ### ONS-power
 ONS-power is a new core function to lock ONS. Locked ONS can't be used as collateral or transferred to another account.
 
+Removing ONS from locked ONS needs 30 days vesting time, until ONS becomes liquid again. 
+
 ```
 tau=150; // days
 t=0; // days
@@ -51,9 +53,6 @@ t = 0
 t_active = 0
 }
 ```
-
-### ONS vesting
-Removing ONS from locked ONS needs 30 days vesting time, until ONS becomes liquid again. 
 
 ## VOTE
 Blockchain creates every day 10 Millionen VOTE, which rewards the worker system and ONS-power. 

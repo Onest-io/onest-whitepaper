@@ -77,7 +77,7 @@ The ONS-power account can select a proxy for the next 300 days, which receives t
 Whitelisted accounts, are able to perform any VOTE burn during the first 555 blockchain days.
 
 ### VOTE use cases
-VOTE can only be used once, by burning itself. 
+VOTE can only be used once, by sending it to the VOTE Reserve Pool (burn). 
 
 #### Vote for or against a OIP
 A OIP has 30 active vote days, after the net VOTE becomes consensus. 

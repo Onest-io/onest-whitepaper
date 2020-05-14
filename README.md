@@ -56,7 +56,7 @@ t_active = 0
 ```
 
 ## VOTE
-10 Millionen VOTE are daily emitted from the reserve pool, which rewards the worker system and ONS-power. 
+10 Millionen VOTE are daily emitted from the Reserve Pool, which rewards the worker system and ONS-power. 
 
 - 6.18 Million VOTE are distributed on active worker proposals, depending on the net Worker VOTE-power.
 - 3.82 Million VOTE are distributed to staked ONS, depending on ONS-power.

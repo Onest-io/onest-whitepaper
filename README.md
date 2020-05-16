@@ -12,7 +12,7 @@
 ![utility-flow](https://raw.githubusercontent.com/Onest-io/onest-whitepaper/master/utility-flow.png)
 
 ## ONS
-Every BitShares account can receive an equal wallet (BTS->ONS/LTM) on the new chain. ONS will no longer be used for the function "voting". ONS utility is used for blockchain transaction to reward only Block Producer **(BP)**.
+Every BitShares account can receive an equal wallet (BTS -> ONS & LTM) on the new chain. ONS will no longer be used for the function "voting". ONS utility is used for blockchain transaction to reward only Block Producer **(BP)**.
 
 ### ONS-power
 ONS-power is a new core function to lock ONS. Locked ONS can't be used as collateral or transferred to another account.

@@ -74,7 +74,7 @@ The max. VOTE-power is limited by the available ONS-power of the voter account. 
 The ONS-power account can select a proxy for the next 300 days, which receives the VOTE reward every day.  
 
 #### VOTE-whitelist
-Whitelisted accounts, are able to perform any VOTE burn during the first 555 blockchain days.
+Whitelisted accounts, are able to perform any VOTE burn, independent of ONS-power, during the first 555 blockchain days.
 
 ### VOTE use cases
 VOTE can only be used once, by sending it to the VOTE Reserve Pool (burn). 

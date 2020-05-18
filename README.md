@@ -103,7 +103,7 @@ When a BP misses the block production (n=0, n+1), his net VOTE power gets halved
 Active committee members are selected by the net amount of VOTE-power.
 
 #### Pay for block chain fees
-Block chain fees can also by using the equivalent amount of VOTE. No ONS-power is needed here. Referrals and registrars can earn VOTE via vesting balances. The equivalent amount is calculated by the ONS/VOTE market based on the MA(14d). This feature allows free blockchain use by staking ONS and earning VOTE. 
+Block chain fees can also be paid by using the equivalent amount of VOTE. No ONS-power is needed here. Referrals and registrars can earn VOTE via vesting balances. The equivalent amount is calculated by the ONS/VOTE market based on the MA(14d). This feature allows free blockchain use by staking ONS and earning VOTE. 
 
 ### Effects of VOTE
 - VOTE is a limited utility, which can be minted, collected, shared, burnt, traded and used as collateral on the DEX

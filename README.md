@@ -79,7 +79,7 @@ Whitelisted accounts, are able to perform any VOTE burn, independent of ONS-powe
 ### VOTE use cases
 VOTE can only be used once, by sending it to the VOTE Reserve Pool (burn). 
 
-#### Vote for or against a Onest Improvement Proposal (OIP)
+#### Vote for or against a OIP (Onest Improvement Proposal)
 A OIP has 30 active vote days, after the net VOTE becomes consensus. 
 
 #### Vote for or against a Worker

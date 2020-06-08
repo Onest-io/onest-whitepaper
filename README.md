@@ -20,9 +20,9 @@ ONS-power is a new core function to lock ONS. Locked ONS can't be used as collat
 Removing ONS from locked ONS needs 30 days vesting time, until ONS becomes liquid again. 
 
 ```
-tau=150; // time constant to reach 70% of max power in days 
+tau=150; // time constant in days to reach 70% of max ONS-power 
 t=0; // locking period in days
-t_active = 0; // period since last update in days
+t_active = 0; // period in days since last ONS-power update 
 
 ONS_power = locked_ONS * (1 - e^(-t/tau))
 

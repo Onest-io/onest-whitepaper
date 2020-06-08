@@ -20,35 +20,35 @@ ONS-power is a new core function to lock ONS. Locked ONS can't be used as collat
 Removing ONS from locked ONS needs 30 days vesting time, until ONS becomes liquid again. 
 
 ```
-tau=150; // days
-t=0; // days
-t_active = 0; // days
+tau=150; // time constant to reach 70% of max power in days 
+t=0; // locking period in days
+t_active = 0; // period since last update in days
 
 ONS_power = locked_ONS * (1 - e^(-t/tau))
 
-if (new day)
+if (new day) // increase locking time every day
 {
 t = t + 1
 t_active = t_active + 1
 }
 
-if (t > 450)
+if (t > 450) // limit locking time to 450 days
 {
 t = 450
 }
 
-if (t_active > 100)
+if (t_active > 100) // insure position gets updated at least every 100 days
 {
 t = 0
 }
 
-if (locked_ONS increased)
+if (locked_ONS increased) // insure small funds can't be used to push active locking time
 {
 t = t * (locked_ONS_old/locked_ONS_new)
 t_active = 0
 }
 
-if (locked_ONS decreased)
+if (locked_ONS decreased) // insure locking time gets reset, when funds are removed
 {
 t = 0
 t_active = 0

@@ -22,7 +22,7 @@ Removing ONS from locked ONS needs 30 days vesting time, until ONS becomes liqui
 ```
 tau=150; // time constant in days to reach 70% of max ONS-power 
 t=0; // total locking period in days
-t_active = 0; // period in days since last ONS-power update 
+t_active = 0; // period in days, since last ONS-power update 
 
 ONS_power = locked_ONS * (1 - e^(-t/tau))
 

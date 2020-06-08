@@ -11,7 +11,7 @@
 ## Utility Flow
 ![utility-flow](https://raw.githubusercontent.com/Onest-io/onest-whitepaper/master/utility-flow.png)
 
-## ONS
+## ONS (transaction utility)
 Every BitShares account can receive an equal wallet (1 BTS -> 1 ONS & LTM) on the new chain. ONS will no longer be used for the function "voting". ONS utility is used for blockchain transaction to reward only Block Producer **(BP)**.
 
 ### ONS-power
@@ -55,7 +55,7 @@ t_active = 0
 }
 ```
 
-## VOTE
+## VOTE (voting utility)
 10 Millionen VOTE are daily emitted from the Reserve Pool, which rewards the worker system and ONS-power. 
 
 - 6.18 Million VOTE are distributed on active worker proposals, depending on the net Worker VOTE-power.
@@ -79,7 +79,7 @@ Whitelisted accounts, are able to perform any VOTE burn, independent of ONS-powe
 ### VOTE use cases
 VOTE can only be used once, by sending it to the VOTE Reserve Pool (burn). 
 
-#### Vote for or against a OIP
+#### Vote for or against a Onest Improvement Proposal (OIP)
 A OIP has 30 active vote days, after the net VOTE becomes consensus. 
 
 #### Vote for or against a Worker

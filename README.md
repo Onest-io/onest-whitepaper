@@ -32,7 +32,7 @@ t = t + 1
 t_active = t_active + 1
 }
 
-if (t > 450) // limit locking time to 450 days
+if (t > 450) // limit locking time for calculation to 450 days
 {
 t = 450
 }

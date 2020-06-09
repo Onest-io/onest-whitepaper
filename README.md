@@ -26,13 +26,13 @@ t_active = 0; // period in days, since last ONS-power update
 
 ONS_power = locked_ONS * (1 - e^(-t/tau))
 
-if (new day) // increase times every day
+if (new day) // increase time every day
 {
 t = t + 1
 t_active = t_active + 1
 }
 
-if (t > 450) // limit locking time for calculation to 450 days
+if (t > 450) // limit locking time for calculation
 {
 t = 450
 }

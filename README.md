@@ -5,7 +5,7 @@
 - Segregating of `transaction utility` and `voting utility`
 - Balance the reward and demand between transaction and vote utility 
 - Create a liquid governance and worker system
-- Reward workers and loyal utility holders with VOTE
+- Reward workers, loyal utility holders and voters with VOTE
 - Allow a natural market selection of VOTE users
 
 ## Utility Flow
@@ -56,10 +56,11 @@ t_active = 0
 ```
 
 ## VOTE (voting utility)
-10 Millionen VOTE are daily emitted from the Reserve Pool, which rewards the worker system and ONS-power. 
+10 Millionen VOTE are daily emitted from the Reserve Pool. 
 
-- 6.18 Million VOTE are distributed on active worker proposals, depending on the net Worker VOTE-power.
-- 3.82 Million VOTE are distributed to staked ONS, depending on ONS-power.
+- 5.562 Million VOTE are distributed to WORK-power (active worker proposals, depending on net Worker VOTE-power)
+- 3.438 Million VOTE are distributed to ONS-power
+- 1 Million VOTE are distributed to VOTE-power
 
 ### VOTE-power
 The voter defines the duration for the VOTE burn (max. 150d). The longer the time period, the lower the VOTE-power. 

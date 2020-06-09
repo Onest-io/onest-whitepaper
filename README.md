@@ -26,7 +26,7 @@ t_active = 0; // period in days, since last ONS-power update
 
 ONS_power = locked_ONS * (1 - e^(-t/tau))
 
-if (new day) // increase locking time every day
+if (new day) // increase times every day
 {
 t = t + 1
 t_active = t_active + 1

@@ -56,9 +56,9 @@ t_active = 0
 ```
 
 ## VOTE (voting utility)
-10 Millionen VOTE are daily emitted from the Reserve Pool. 
+10 Millionen VOTE are daily emitted from the Reserve Pool: 
 
-- 5.562 Million VOTE are distributed to WORK-power (active worker proposals, depending on net Worker VOTE-power)
+- 5.562 Million VOTE are distributed to WORK-power (active worker proposals, depending on net worker VOTE-power)
 - 3.438 Million VOTE are distributed to ONS-power
 - 1.000 Million VOTE are distributed to VOTE-power
 
@@ -69,7 +69,7 @@ The voter defines the duration for the VOTE burn (max. 150d). The longer the tim
 
 `const. VOTE-power = (total burnt VOTE on voting) / (total days for voting)`
 
-The max. VOTE-power is limited by the available ONS-power of the voter account. For 1 VOTE-power 9.5 ONS-power are needed. 
+The max. VOTE-power is limited by the available ONS-power of the voter account. For 1 VOTE-power 9.5 ONS-power are needed.
 
 #### VOTE-proxy
 The ONS-power account can select a proxy for the next 300 days, which receives the VOTE reward every day.  

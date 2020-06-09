@@ -60,7 +60,7 @@ t_active = 0
 
 - 5.562 Million VOTE are distributed to WORK-power (active worker proposals, depending on net Worker VOTE-power)
 - 3.438 Million VOTE are distributed to ONS-power
-- 1 Million VOTE are distributed to VOTE-power
+- 1.000 Million VOTE are distributed to VOTE-power
 
 ### VOTE-power
 The voter defines the duration for the VOTE burn (max. 150d). The longer the time period, the lower the VOTE-power. 

@@ -5,7 +5,7 @@
 - Segregating of `transaction utility` and `voting utility`
 - Balance the reward and demand between transaction and vote utility 
 - Create a liquid governance and worker system
-- Reward workers, loyal utility holders and voters with VOTE
+- Reward workers, loyal utility holders and voters with new VOTE
 - Allow a natural market selection of VOTE users
 
 ## Utility Flow

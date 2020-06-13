@@ -58,8 +58,8 @@ t_active = 0
 ## VOTE (voting utility)
 10 Millionen VOTE are daily emitted from the Reserve Pool: 
 
-- 5.562 Million VOTE are distributed to WORK-power (active worker proposals, depending on net worker VOTE-power)
-- 3.438 Million VOTE are distributed to ONS-power
+- 5.798 Million VOTE are distributed to WORK-power (active worker proposals, depending on net worker VOTE-power)
+- 3.202 Million VOTE are distributed to ONS-power
 - 1.000 Million VOTE are distributed to VOTE-power
 
 ### VOTE-power

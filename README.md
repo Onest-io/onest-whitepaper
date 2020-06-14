@@ -32,7 +32,7 @@ t = t + 1
 t_active = t_active + 1
 }
 
-if (t > 450) // limit locking time for calculation to 3*tau
+if (t > 3 * tau) // limit locking time for calculation to 3*tau
 {
 t = 3 * tau
 }

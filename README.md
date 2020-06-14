@@ -32,9 +32,9 @@ t = t + 1
 t_active = t_active + 1
 }
 
-if (t > 450) // limit locking time for calculation
+if (t > 450) // limit locking time for calculation to 3*tau
 {
-t = 450
+t = 3 * tau
 }
 
 if (t_active > 100) // insure position gets updated at least every 100 days
